@@ -1,5 +1,7 @@
 # real_bot
 
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
+
 一个基于 AstrBot 的多平台仿真人项目，目标是让同一个角色在不同平台中保持连贯的记忆、人格、情绪和社交行为。
 
 项目将“表达”和“执行”分开：统一的表达模型结合上下文决定说什么、联系谁、在哪个平台行动；外部程序完成消息路由、媒体处理、发送、回执确认与记忆记录。
@@ -102,6 +104,8 @@ flowchart LR
 
 API密钥模板为空。凭据、登录状态、聊天与记忆数据、模型权重及个人媒体资源不随源码分发。提交前可运行 `python tools/check_public_tree.py` 检查源码与配置。
 
-## 组件来源
+## 许可证
+
+本项目采用 [GNU Affero General Public License v3.0（AGPL-3.0）](LICENSE)。
 
 第三方组件保留各自的许可证与来源，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

@@ -25,6 +25,26 @@
       "sha256": "5d2986784415f39e4a92868203618f1d98822990e587586d52826d03804e5e80"
     },
     {
+      "path": "LICENSE",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "README.md",
+      "sha256": "283b60adf19eba4197ade8b40283aafc681514030d032cc91df41279c3d0be30"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "7b870587bb969099ccd196e32d340e4ab2af71e355be988afcc6bf88c03689b8"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "f7aa2bbb80ae14433a2c64c73bb9396f88215b41521b4f21d43d22282ce22070"
+    },
+    {
+      "path": "archive/README.md",
+      "sha256": "0900bc92ff5d24af1b4a4a8f428684ac8e8745d769f8d62719eb138dae568a6f"
+    },
+    {
       "path": "archive/inbox-local/receiver.py",
       "sha256": "9035959eed56082acfc158eef97d3514fc1acbb63ee90f90f8cbbff0a785f5f4"
     },
@@ -325,10 +345,6 @@
       "sha256": "63c1ef5c4baf53ffda26c3f7b9e594c8812050c896cdf44f74f7f5c681beed4b"
     },
     {
-      "path": "archive/README.md",
-      "sha256": "0900bc92ff5d24af1b4a4a8f428684ac8e8745d769f8d62719eb138dae568a6f"
-    },
-    {
       "path": "archive/web-chat/index.html",
       "sha256": "0d26395329587788af73afe8c8ef7aa3f04a209215632b663c80dddb966d9ddc"
     },
@@ -553,6 +569,10 @@
       "sha256": "c9e16ce19a51d0b15ec8934a8e775b1057980dc25e88dff92c37afbf4482e8ec"
     },
     {
+      "path": "modules/genie-tts/README.md",
+      "sha256": "07a245283f1ab2e22829726e59eb42993f2887fd470ee4620641324aa007f044"
+    },
+    {
       "path": "modules/genie-tts/convert.py",
       "sha256": "481c0e5019678b9dafd7c8a088d043f1e286318ee3d2e9f08147fca2030a688c"
     },
@@ -573,16 +593,20 @@
       "sha256": "536412d31a038a0a85bf08604a0320d545e9f327f35e03ea166df43dd897f74f"
     },
     {
-      "path": "modules/genie-tts/README.md",
-      "sha256": "07a245283f1ab2e22829726e59eb42993f2887fd470ee4620641324aa007f044"
-    },
-    {
       "path": "modules/genie-tts/requirements.lock.txt",
       "sha256": "8b7b0cf2f3fc31e34c395d42b70b8dd951ad330613fc4cf421f246ece15f9559"
     },
     {
       "path": "modules/genie-tts/worker.py",
       "sha256": "6945e7962c529665dabe30796cd495f7766a40efbc47bc9a8f1be9e0349134c5"
+    },
+    {
+      "path": "modules/heybox-bridge/LICENSE",
+      "sha256": "0ac5dd65e881df3182e29025cf6932b6d5f3983c4ca887e06cd31711c5b29533"
+    },
+    {
+      "path": "modules/heybox-bridge/README.md",
+      "sha256": "6965ab7ff1e5b26b8f1a208cfb26ed5961b0ace394bccf952d5425504f701cf1"
     },
     {
       "path": "modules/heybox-bridge/api_client.py",
@@ -613,10 +637,6 @@
       "sha256": "f7da398f047594bb6c2a251dfff01f8c0e09b5ccec07d0e39962cfa3aa7a5795"
     },
     {
-      "path": "modules/heybox-bridge/LICENSE",
-      "sha256": "0ac5dd65e881df3182e29025cf6932b6d5f3983c4ca887e06cd31711c5b29533"
-    },
-    {
       "path": "modules/heybox-bridge/markdown_converter.py",
       "sha256": "3ec058729610cebd1e1780036a1e856842892986978a47836266e9618a710699"
     },
@@ -627,10 +647,6 @@
     {
       "path": "modules/heybox-bridge/pyproject.toml",
       "sha256": "a0a58109e56786185db23bf3abad937f8d090fe9bf0a4d1720e272abd2f6ac9e"
-    },
-    {
-      "path": "modules/heybox-bridge/README.md",
-      "sha256": "6965ab7ff1e5b26b8f1a208cfb26ed5961b0ace394bccf952d5425504f701cf1"
     },
     {
       "path": "modules/heybox-bridge/utils.py",
@@ -743,6 +759,10 @@
     {
       "path": "modules/inbox/test_sms_ingress.py",
       "sha256": "088ab10241de7b1d82af35c2f0520f88aa2537901ee60fe981d21e5743d205a9"
+    },
+    {
+      "path": "modules/unified-mouth/README.md",
+      "sha256": "22c4203f25a7dba62c4791f08167c06863e2561f6d9510ef2270e692e90de6b1"
     },
     {
       "path": "modules/unified-mouth/active_gate.py",
@@ -1025,10 +1045,6 @@
       "sha256": "c173c4792a3faca77711524d46bd247d3e5dc91d39713c123e74d212f1aa596d"
     },
     {
-      "path": "modules/unified-mouth/README.md",
-      "sha256": "22c4203f25a7dba62c4791f08167c06863e2561f6d9510ef2270e692e90de6b1"
-    },
-    {
       "path": "modules/unified-mouth/recall_identity.py",
       "sha256": "78c6af0daea6a8f974edf139663b24175ca347fe8a5886b2b16ca62f93f24965"
     },
@@ -1137,6 +1153,10 @@
       "sha256": "ad7386519a12e97fe82ea93c9f23c7d20007f688b6631e7d8a57ae7d51ab4bbe"
     },
     {
+      "path": "modules/unified-mouth/vendor/LICENSE",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
       "path": "modules/unified-mouth/vendor/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
@@ -1147,10 +1167,6 @@
     {
       "path": "modules/unified-mouth/vendor/cooldown_manager.py",
       "sha256": "d252f644867343a01a0343c2b727b242ae8930b351d0cd3306ba8b8efbecfdc4"
-    },
-    {
-      "path": "modules/unified-mouth/vendor/LICENSE",
-      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
     },
     {
       "path": "modules/unified-mouth/vendor/proactive_schedule.py",
@@ -1253,12 +1269,44 @@
       "sha256": "2633657e571469421d07a4e4b22c19277642e352df4389d90933af827e66aa08"
     },
     {
+      "path": "modules/wechat-native/CONTEXT.md",
+      "sha256": "b72d79175f640eb608ef1d750acb3bb8c3505bcad9aa9740809d1224c4834b05"
+    },
+    {
+      "path": "modules/wechat-native/Dockerfile",
+      "sha256": "1fcb0d4f294ea86fdfd950eb963e3367ee85cb15a86884ad7c0a0825d7ff595b"
+    },
+    {
+      "path": "modules/wechat-native/LICENSE",
+      "sha256": "037d9d14b80adc1793d645e2bc49ccaf5bf84f94f0d77ccc82c680738f8c386b"
+    },
+    {
+      "path": "modules/wechat-native/LICENSES/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "modules/wechat-native/LICENSES/go-sqlcipher.txt",
+      "sha256": "d5ed9ef6581dd34d2663ecbba5140c1ac562447761cd80267c474fcd284af639"
+    },
+    {
+      "path": "modules/wechat-native/README.md",
+      "sha256": "fdc33bb0353d942bfd604fb3cd4952cddbaad27981e7a3ada233132cccc4c4ca"
+    },
+    {
+      "path": "modules/wechat-native/THIRD_PARTY_NOTICES.md",
+      "sha256": "8f9d6799f9321d1cd5c5d7d8a2824925921e4c02809ff6d7c14a14ca89b4eaa2"
+    },
+    {
       "path": "modules/wechat-native/cmd/weagent/main.go",
       "sha256": "bf1e1c61b0c94f55002867b887ae19a2030f27b1e48b7704d87e0687c3551f3c"
     },
     {
-      "path": "modules/wechat-native/CONTEXT.md",
-      "sha256": "b72d79175f640eb608ef1d750acb3bb8c3505bcad9aa9740809d1224c4834b05"
+      "path": "modules/wechat-native/docker-compose.build.yml",
+      "sha256": "46fee59d5886a21436648907eb0b8c046f038b79e7244aa8877f26f9c0c28f36"
+    },
+    {
+      "path": "modules/wechat-native/docker-compose.yml",
+      "sha256": "a9166baf476b5f4da761dd091fde97f61ad942ac4c974c2bf4d32831297cd916"
     },
     {
       "path": "modules/wechat-native/docker/scripts/entrypoint.sh",
@@ -1271,18 +1319,6 @@
     {
       "path": "modules/wechat-native/docker/wechat/README.md",
       "sha256": "9b895970f1bc27c62a8c9974dc01bc25d179d517d51d1ae37d2ddefd850eecdd"
-    },
-    {
-      "path": "modules/wechat-native/docker-compose.build.yml",
-      "sha256": "46fee59d5886a21436648907eb0b8c046f038b79e7244aa8877f26f9c0c28f36"
-    },
-    {
-      "path": "modules/wechat-native/docker-compose.yml",
-      "sha256": "a9166baf476b5f4da761dd091fde97f61ad942ac4c974c2bf4d32831297cd916"
-    },
-    {
-      "path": "modules/wechat-native/Dockerfile",
-      "sha256": "1fcb0d4f294ea86fdfd950eb963e3367ee85cb15a86884ad7c0a0825d7ff595b"
     },
     {
       "path": "modules/wechat-native/docs/adr/0001-separate-wecom-archive-proxy.md",
@@ -1429,28 +1465,8 @@
       "sha256": "5615d2e5b1c2582e4347343a5cf1ec68bfd66c21598515e093032d968054e3fb"
     },
     {
-      "path": "modules/wechat-native/LICENSE",
-      "sha256": "037d9d14b80adc1793d645e2bc49ccaf5bf84f94f0d77ccc82c680738f8c386b"
-    },
-    {
-      "path": "modules/wechat-native/LICENSES/Apache-2.0.txt",
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
-    },
-    {
-      "path": "modules/wechat-native/LICENSES/go-sqlcipher.txt",
-      "sha256": "d5ed9ef6581dd34d2663ecbba5140c1ac562447761cd80267c474fcd284af639"
-    },
-    {
-      "path": "modules/wechat-native/README.md",
-      "sha256": "fdc33bb0353d942bfd604fb3cd4952cddbaad27981e7a3ada233132cccc4c4ca"
-    },
-    {
       "path": "modules/wechat-native/scripts/preflight-container.sh",
       "sha256": "92a666e6574be7312bdf1de9f554607dd0dafebfd5321992eb393d90b5d01c6c"
-    },
-    {
-      "path": "modules/wechat-native/THIRD_PARTY_NOTICES.md",
-      "sha256": "8f9d6799f9321d1cd5c5d7d8a2824925921e4c02809ff6d7c14a14ca89b4eaa2"
     },
     {
       "path": "modules/wechat-native/wecom/types.go",
@@ -1525,20 +1541,8 @@
       "sha256": "b251762447826165373132305fbacdf9ddfa0007244d575aa73adb123456070c"
     },
     {
-      "path": "README.md",
-      "sha256": "fc2e633e89fb897740fe23adda71410799b4c1d08be078d0e0674d5375cf8e1f"
-    },
-    {
       "path": "requirements.txt",
       "sha256": "3617f27389ac0f040f85f38c9f52a2b92fae67295736196a47ea83ba0d0ebb43"
-    },
-    {
-      "path": "SECURITY.md",
-      "sha256": "7b870587bb969099ccd196e32d340e4ab2af71e355be988afcc6bf88c03689b8"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "5df8b9324a71e114d8d8ce25b62b2db9bf957eb0763b3a6b502332254f1ebd61"
     },
     {
       "path": "tools/check_public_tree.py",

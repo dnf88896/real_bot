@@ -7,4 +7,4 @@
 - Bilibili Adapter client files are referenced as an external prerequisite, not redistributed, because the referenced upstream repository did not expose a LICENSE at export time.
 - Voice/vision models, character voice weights, pictures, stickers and actual browser captures are not redistributed. Their provenance and usage conditions must be handled separately by deployers.
 
-The source export anonymizes account identifiers, server addresses and workstation paths. Runtime behavior changes should be reviewed against the original deployment before enabling real accounts. No license has been newly selected for the repository creator's original work by the export tooling.
+The source export anonymizes account identifiers, server addresses and workstation paths. Runtime behavior changes should be reviewed against the original deployment before enabling real accounts. The repository creator's original code and the integrated project are licensed under GNU AGPL-3.0; see the root LICENSE. Separately identified third-party components retain their original licenses and notices.
