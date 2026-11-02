@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "min_seconds": 18000,
+  "max_seconds": 25200,
+  "failure_retry_seconds": 600
+}

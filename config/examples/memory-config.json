@@ -1,0 +1,7 @@
+{
+  "history_messages": 20,
+  "short_records": 50,
+  "eviction_threshold": 300,
+  "summary_chars": 500,
+  "recent_per_conversation": 10
+}

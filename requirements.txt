@@ -1,0 +1,11 @@
+# Core support and operator tools. Install AstrBot itself from its pinned upstream.
+aiohttp>=3.9,<4
+jsonschema>=4.20,<5
+loguru>=0.7,<1
+paramiko>=3.4,<5
+Pillow>=10,<13
+pydantic>=2,<3
+websockets>=12,<16
+PyYAML>=6,<7
+
+# OCR, ASR, browser and voice dependencies belong in their isolated environments.

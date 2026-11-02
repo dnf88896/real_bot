@@ -1,0 +1,18 @@
+{
+  "nickname_anchor": "left_edge_and_vertical_midpoint",
+  "nickname_to_avatar": {
+    "dx": -32,
+    "dy": 12
+  },
+  "avatar_to_mention_menu": {
+    "dx": 20,
+    "dy": 21
+  },
+  "units": "screen_pixels",
+  "scope": "current Linux WeChat layout at 100% scale",
+  "verified_names": [
+    "ExampleFriend",
+    "ExampleOwner"
+  ],
+  "mention_selected": false
+}

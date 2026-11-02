@@ -1,0 +1,21 @@
+{
+  "enabled": false,
+  "account_id": "100000002",
+  "allow_all_private": true,
+  "allow_private": [],
+  "allow_groups": [],
+  "cutover_observation_id": 0,
+  "group_delivery_mode": "normal",
+  "group_preview_recipient": "100000001",
+  "preview_all_groups": false,
+  "preview_groups": [],
+  "bilibili_accounts": [
+    "200000001"
+  ],
+  "bilibili_post_accounts": [
+    "200000001"
+  ],
+  "bilibili_comment_accounts": [
+    "200000001"
+  ]
+}

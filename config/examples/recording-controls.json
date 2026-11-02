@@ -1,0 +1,35 @@
+{
+  "client": "WeChat Linux 4.1.13.26",
+  "verified_window_size": [
+    874,
+    640
+  ],
+  "coordinate_origin": "main window top-left; includes title bar",
+  "start": {
+    "x": 781,
+    "y": 609,
+    "right_margin": 93,
+    "bottom_margin": 31,
+    "verified": "clicked; native recording controls appeared"
+  },
+  "finish_and_send": {
+    "x": 835,
+    "y": 605,
+    "right_margin": 39,
+    "bottom_margin": 35,
+    "verified": "visible green upward arrow; not clicked; sending not tested"
+  },
+  "cancel": {
+    "x": 633,
+    "y": 605,
+    "right_margin": 241,
+    "bottom_margin": 35,
+    "verified": "clicked; recording UI disappeared and empty draft restored"
+  },
+  "not_voice_message": {
+    "x": 489,
+    "y": 608,
+    "purpose": "speech input to text; do not use for sending native voice"
+  },
+  "notes": "Start/cancel tested without sending. UI has no separate stop/preview button visible. Before clicks verify window, recipient and recording state. Do not use absolute screen coordinates. Current example window origin was (200,80)."
+}

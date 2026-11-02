@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "qq_enabled": true,
+  "max_cards": 4,
+  "metadata_timeout_seconds": 5,
+  "generate_new": true,
+  "generation_timeout_seconds": 12,
+  "generation_retry_seconds": 60
+}

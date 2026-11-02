@@ -1,0 +1,14 @@
+{
+  "snapshot_date": "2026-10-29",
+  "model": "deepseek-flash",
+  "currency": "CNY",
+  "off_peak_per_million": {
+    "input_miss": 1,
+    "input_hit": 0.02,
+    "output": 4
+  },
+  "peak_multiplier": 2,
+  "search_fetch_per_success": 0.005,
+  "holidays": [],
+  "note": "当前费率快照；未来费率及节假日需维护。账本金额为估算，最终以官方账单为准。"
+}

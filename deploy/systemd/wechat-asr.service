@@ -1,0 +1,27 @@
+[Unit]
+Description=Private WeChat SILK extraction and local speech recognition
+After=local-fs.target
+
+[Service]
+Type=simple
+User=root
+Group=qq-social
+WorkingDirectory=/opt/wechat-asr
+ExecStart=/opt/wechat-asr/venv/bin/python /opt/wechat-asr/asr_service.py
+Restart=on-failure
+RestartSec=5
+RuntimeDirectory=wechat-asr
+RuntimeDirectoryMode=0750
+UMask=0077
+PrivateTmp=true
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/astrbot-mouth/incoming-wechat-voice /run/wechat-asr
+ProtectHome=true
+LimitCORE=0
+MemoryMax=1200M
+TasksMax=32
+TimeoutStopSec=55
+
+[Install]
+WantedBy=multi-user.target

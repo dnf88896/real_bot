@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "base_probability": 0.3,
+  "boost_probability": 0.8,
+  "boost_seconds": 120,
+  "boost_half_life": 45,
+  "cooldown_seconds": 0,
+  "density_window": 300,
+  "max_batches": 5,
+  "typing_speed": 12,
+  "typing_min": 0.4,
+  "typing_max": 3.5,
+  "bubble_gap_min": 0.8,
+  "bubble_gap_max": 2.0,
+  "typo_enabled": true,
+  "typo_probability": 0.02,
+  "followup_typing_speed": 3,
+  "followup_typing_max": 10
+}

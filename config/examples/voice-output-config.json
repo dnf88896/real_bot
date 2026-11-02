@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "backend": "gpt_sovits",
+  "voice": "高松灯·日常",
+  "rate": "+0%",
+  "volume": "+0%",
+  "pitch": "+0Hz",
+  "max_chars": 1000,
+  "timeout_seconds": 240,
+  "python": "/opt/genie-tts-lab/venv/bin/python",
+  "worker": "/opt/genie-tts-lab/worker.py",
+  "model_revision": "tomori-daily-genie2.0.2-int8-nobert-reference2-v1"
+}

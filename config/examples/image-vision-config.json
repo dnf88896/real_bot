@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "model": "deepseek-flash",
+  "detail": "low",
+  "max_images": 4,
+  "max_chars": 400,
+  "timeout_seconds": 60,
+  "key_source": "/opt/astrbot-mouth/api.json"
+}

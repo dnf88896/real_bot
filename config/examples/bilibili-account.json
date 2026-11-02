@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "account_id": "200000001",
+  "nickname": "ExampleBilibiliBot",
+  "SESSDATA": "",
+  "bili_jct": "",
+  "device_id": "",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+  "buvid3": "",
+  "buvid4": "",
+  "posting_enabled": false,
+  "comments_enabled": false,
+  "notifications_enabled": true
+}

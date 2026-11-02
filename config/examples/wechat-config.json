@@ -1,0 +1,34 @@
+{
+  "enabled": false,
+  "receive_enabled": true,
+  "send_enabled": true,
+  "backend": "webox",
+  "account_id": "wxid_8sm4hahoz14h29",
+  "base_url": "http://127.0.0.1:38082",
+  "credentials_file": "",
+  "allow_private": [],
+  "allow_groups": [],
+  "allow_all_private": true,
+  "allow_all_group": true,
+  "owner_id": "wxid_t2ni3he5modo12",
+  "preview_recipient": "wxid_t2ni3he5modo12",
+  "preview_only": false,
+  "contact_remarks": [
+    "*"
+  ],
+  "receive_after_ms": 1793174621827,
+  "poll_seconds": 3,
+  "capabilities": [
+    "text",
+    "image",
+    "video",
+    "mention",
+    "voice"
+  ],
+  "quote_check": false,
+  "title_check": true,
+  "draft_test_groups": [
+    "45205053908@chatroom"
+  ],
+  "group_input_enabled": false
+}

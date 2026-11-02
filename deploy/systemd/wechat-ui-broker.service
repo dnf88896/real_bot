@@ -1,0 +1,14 @@
+[Unit]
+Description=Private WeChat durable UI queue broker
+After=wechat-ui-sender.service
+[Service]
+ExecStart=/opt/astrbot-src/.venv/bin/python -u /opt/wechat-webox/session-selector/ui_broker.py
+WorkingDirectory=/opt/wechat-webox/session-selector
+Group=qq-social
+RuntimeDirectory=wechat-ui-broker
+RuntimeDirectoryMode=0750
+UMask=0077
+Restart=on-failure
+RestartSec=5
+[Install]
+WantedBy=multi-user.target

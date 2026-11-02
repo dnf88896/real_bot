@@ -1,0 +1,27 @@
+{
+  "allow_all_private": true,
+  "group_preview": false,
+  "owner": "100000001",
+  "private_wait": 1.0,
+  "private_quiet": 0.7,
+  "private_cap": 3.0,
+  "group_wait": 8.0,
+  "group_quiet": 2.0,
+  "group_cap": 12.0,
+  "private_batch": 12,
+  "group_batch": 80,
+  "private_chars": 12000,
+  "group_chars": 24000,
+  "global_concurrency": 3,
+  "group_fairness_seconds": 45,
+  "private_streak": 3,
+  "wake_enabled": true,
+  "trigger_keywords": [],
+  "keyword_smart_mode": false,
+  "decision_timeout": 30,
+  "group_gate_mean_seconds": 180,
+  "bilibili_accounts": [
+    "200000001"
+  ],
+  "group_input_enabled": false
+}

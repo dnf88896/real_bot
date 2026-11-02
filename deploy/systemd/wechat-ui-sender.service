@@ -1,0 +1,17 @@
+[Unit]
+Description=Serialized durable WeChat UI sender
+After=docker.service wechat-native-api.service
+Requires=docker.service
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/wechat-webox/session-selector
+ExecStart=/opt/astrbot-src/.venv/bin/python -u /opt/wechat-webox/session-selector/unified_sender.py worker
+Environment=OMP_NUM_THREADS=1
+Environment=OPENBLAS_NUM_THREADS=1
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=300
+UMask=0077
+[Install]
+WantedBy=multi-user.target

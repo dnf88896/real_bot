@@ -1,0 +1,19 @@
+[Unit]
+Description=AstrBot unified expression pilot
+After=network-online.target
+Wants=network-online.target
+[Service]
+User=qq-social
+Group=qq-social
+WorkingDirectory=/opt/astrbot-runtime
+Environment=ASTRBOT_ROOT=/opt/astrbot-runtime
+Environment=PYTHONPATH=/opt/astrbot-src:/opt/astrbot-mouth
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/astrbot-src/.venv/bin/python /opt/astrbot-mouth/run.py
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=yes
+ReadOnlyPaths=/opt/qq-mouth /opt/qq-brain /opt/qq-brain-memory /opt/qq-identity /opt/qq-short-memory /opt/qq-middle-memory /opt/qq-output-memory /opt/qq-eyes
+UMask=0077
+[Install]
+WantedBy=multi-user.target

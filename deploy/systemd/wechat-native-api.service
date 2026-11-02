@@ -1,0 +1,17 @@
+[Unit]
+Description=Private WeChat API with enforced owner preview sink
+After=docker.service nginx.service
+Requires=docker.service
+Wants=wechat-conversation-verifier.service
+After=wechat-conversation-verifier.service
+[Service]
+EnvironmentFile=/opt/wechat-webox/adapter.env
+ExecStartPre=/usr/bin/python3 /opt/wechat-webox/ensure_backend.py
+ExecStart=/usr/bin/python3 /opt/wechat-webox/start_verified_api.py
+ExecStopPost=-/usr/bin/docker exec wechat-webox-desktop-1 pkill -TERM -x weagent-next
+Restart=always
+RestartSec=10
+TimeoutStartSec=40
+TimeoutStopSec=10
+[Install]
+WantedBy=multi-user.target

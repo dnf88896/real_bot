@@ -1,0 +1,21 @@
+[Unit]
+Description=Isolated bot inbox bot-mail-receiver
+After=network-online.target
+Wants=network-online.target
+[Service]
+Environment=BOT_INBOX_ACCOUNT=
+User=qq-social
+Group=qq-social
+WorkingDirectory=/opt/bot-inbox
+ExecStart=/usr/bin/python3 /opt/bot-inbox/receiver.py
+Environment=PYTHONUNBUFFERED=1
+Restart=on-failure
+RestartSec=15
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/bot-inbox
+[Install]
+WantedBy=multi-user.target

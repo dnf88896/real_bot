@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "cooldown_seconds": 600,
+  "idle_enabled": true,
+  "interest_enabled": true,
+  "interest_min_seconds": 6000,
+  "interest_max_seconds": 8400,
+  "failure_retry_seconds": 600,
+  "group_idle_enabled": false,
+  "other_private_idle_enabled": false
+}

@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "posting_enabled": false,
+  "account_id": "300000001",
+  "nickname": "ExampleHeyboxBot",
+  "comments_enabled": false,
+  "notifications_enabled": true
+}

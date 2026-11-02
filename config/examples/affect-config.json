@@ -1,0 +1,78 @@
+{
+  "enabled": false,
+  "affinity": {
+    "neutral_delta": 0.01,
+    "positive_delta": 0.02,
+    "negative_delta": -0.015,
+    "positive_words": [
+      "谢谢",
+      "感谢",
+      "太好了",
+      "棒",
+      "赞",
+      "厉害",
+      "牛",
+      "哈哈",
+      "😂",
+      "😄",
+      "👍",
+      "❤️",
+      "爱了",
+      "喜欢",
+      "支持"
+    ],
+    "negative_words": [
+      "傻",
+      "蠢",
+      "笨",
+      "垃圾",
+      "烂",
+      "差",
+      "讨厌",
+      "滚",
+      "闭嘴",
+      "shut up",
+      "😡",
+      "😠",
+      "🤮",
+      "骂人",
+      "愚蠢"
+    ],
+    "negation_words": [
+      "不",
+      "没",
+      "别",
+      "非",
+      "无",
+      "未",
+      "勿",
+      "莫",
+      "不是",
+      "没有",
+      "别再",
+      "一点也不",
+      "根本不",
+      "从不",
+      "绝不",
+      "毫不"
+    ],
+    "negation_range": 5,
+    "initial_half_life_days": 10,
+    "maximum_half_life_days": 30,
+    "reinforcement_days": 0.1,
+    "retained_fraction": 0.3333333333333333,
+    "probability_factor": 0.3,
+    "fixed_values": {
+      "qq:100000001": 1.0,
+      "wechat:wxid_t2ni3he5modo12": 1.0
+    }
+  },
+  "mood": {
+    "interval_seconds": 1800,
+    "update_probability": 0.6,
+    "half_life_minutes": 90,
+    "max_delta": 2,
+    "baseline": 6,
+    "retry_seconds": 300
+  }
+}

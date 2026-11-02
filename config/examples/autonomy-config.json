@@ -1,0 +1,5 @@
+{
+  "enabled": false,
+  "min_delay_seconds": 300,
+  "max_delay_seconds": 600
+}

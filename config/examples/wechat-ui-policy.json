@@ -1,0 +1,6 @@
+{
+  "scroll_steps": 3,
+  "max_pages": 24,
+  "max_attempts": 3,
+  "deadline_seconds": 90
+}

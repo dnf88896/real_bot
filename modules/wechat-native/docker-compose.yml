@@ -1,0 +1,32 @@
+services:
+  webox:
+    image: ${WEBOX_IMAGE:-ghcr.io/netcat-ai/webox:main}
+    environment:
+      - TZ=${TZ:-Asia/Shanghai}
+    volumes:
+      - ${WEBOX_STATE_DIR:-./data/state}:/webox/state
+    ports:
+      - "${WEBOX_HTTP_HOST:-127.0.0.1}:${WEBOX_HTTP_PORT:-38080}:8080"
+      - "${WEBOX_DESKTOP_HOST:-127.0.0.1}:${WEBOX_DESKTOP_PORT:-6080}:6080"
+    shm_size: "1gb"
+    cap_add:
+      - SYS_PTRACE
+    healthcheck:
+      test:
+        - CMD
+        - bash
+        - -ec
+        - >-
+          exec 3<>/dev/tcp/127.0.0.1/8080 &&
+          printf 'GET /healthz HTTP/1.0\r\nHost: localhost\r\n\r\n' >&3 &&
+          grep -q '"ok":true' <&3
+      interval: 2s
+      timeout: 2s
+      retries: 15
+      start_period: 5s
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "2"

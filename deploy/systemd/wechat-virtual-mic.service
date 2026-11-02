@@ -1,0 +1,16 @@
+[Unit]
+Description=Independent virtual microphone for the WeChat desktop
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=simple
+ExecStartPre=/opt/astrbot-src/.venv/bin/python /opt/wechat-webox/virtual-mic/virtual_mic.py setup
+ExecStart=/opt/astrbot-src/.venv/bin/python -u /opt/wechat-webox/virtual-mic/virtual_mic.py maintain
+Restart=on-failure
+RestartSec=10
+TimeoutStartSec=40
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+name: unified_mouth
+display_name: Unified expression relay bridge
+author: dnf88896
+version: 0.5.15
+desc: Unified expression, global memory, sourced profiles, Smart batching and idle intentions.
+repo: https://github.com/dnf88896/real_bot
